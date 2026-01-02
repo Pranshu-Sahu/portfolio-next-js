@@ -1,6 +1,7 @@
 import { Navigation } from "lucide-react";
 import { Spotlight } from "./ui/Spotlight";
 import { MagicButton } from "./ui/MagicButton";
+import Image from "next/image";
 
 export const Hero = () => {
   return (
@@ -17,6 +18,21 @@ export const Hero = () => {
 
       <div className="flex justify-center relative z-10 my-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+            {/* Profile Image */}
+            <div className="relative mb-8">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full blur-xl opacity-50"></div>
+              <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/[0.2] shadow-2xl">
+                <Image 
+                  src="/profile.jpg" 
+                  alt="Profile" 
+                  fill
+                  className="object-cover"
+                  style={{ objectPosition: '60% 10%' }}
+                  priority
+                />
+              </div>
+            </div>
+
             <h2 className="uppercase tracking-widest text-xs text-center text-[#E4ECFF] max-w-80">
                 Dynamic Web Magic with Next.js
             </h2>
