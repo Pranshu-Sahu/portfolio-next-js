@@ -18,16 +18,16 @@ export const Contact = () => {
                       </p>
                       
                       <div className="flex gap-4 items-center flex-wrap justify-center lg:justify-start">
-                          <a href="#" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
+                          <a href="https://github.com/Pranshu-Sahu" target="_blank" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
                               <Github className="text-white" />
                           </a>
-                          <a href="#" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
+                          <a href="https://www.linkedin.com/in/pranshusahu862/" target="_blank" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
                               <Linkedin className="text-white" />
                           </a>
-                           <a href="#" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
+                           <a href="https://x.com/sahupranshu637" target="_blank" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
                               <Twitter className="text-white" />
                           </a>
-                           <a href="mailto:example@gmail.com" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
+                           <a href="mailto:sahupranshu637@gmail.com" className="p-4 border border-white/[0.2] rounded-lg bg-black-100/50 hover:bg-purple-900/20 cursor-pointer transition">
                               <Mail className="text-white" />
                           </a>
                       </div>
